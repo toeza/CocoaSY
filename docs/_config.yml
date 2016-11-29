@@ -1,0 +1,39 @@
+# Site settings
+name: Toeza
+email: cc001@2smail.online
+author: Jarrar
+
+baseurl: "/SEO"
+url: https://toeza.github.io
+
+resume_site: https://toeza.github.io
+github: https://github.com/CocoaSY/
+description: OH !  NO !!!
+meta_description: toeza;个人博客
+motto: It's time to Sleep.
+banner: Hello world
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: CocoaSY
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : toeza
+    # disqus :
+    #     short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
