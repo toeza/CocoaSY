@@ -30,8 +30,8 @@ tag: [开发]
 
 	<table>
 	<tr>
-	<td><img src="{{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}}"></td>
-	<td><img src="{{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}}"></td>
+	<td><img src="{{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}}" width="50px" height="150px"></td>
+	<td><img src="{{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}}" width="50px" height="150px"></td>
 	</tr>
 	</table>
 
@@ -65,3 +65,13 @@ tag: [开发]
 
 	后台测试目录：[点击进入](http://localhost/DedeCMS/uploads/dede/login.php?gotopage=%2FDedeCMS%2Fuploads%2Fdede%2F) 
 	前台测试目录：[点击进入](http://localhost/DedeCMS/uploads/index.php?upcache=1)
+
+2.	测试手机端模板所在目录
+
+	PC端模板所在目录为：templets/default
+	
+	手机端首页加载路径：/m/index.php
+	手机端栏目加载路径：/m/list.php?tid=(*)(example:tid=6)
+	手机端文章加载路径：/a/pics/2010/0407/95.html
+
+3.	分析"/m/index.php"文件
