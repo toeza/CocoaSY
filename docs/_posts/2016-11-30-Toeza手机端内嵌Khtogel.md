@@ -29,6 +29,9 @@ tag: [开发]
 
 	<table>
 	<tr align="center">
+	<td>Dede</td><td>Khtogel</td>
+	</tr>
+	<tr align="center">
 	<td><img src="{{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}}" width="250px" height="450px"></td>
 	<td><img src="{{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}}" width="250px" height="450px"></td>
 	</tr>
@@ -70,9 +73,27 @@ tag: [开发]
 	PC端模板所在目录为：templets/default
 	
 	手机端首页加载路径：/m/index.php
+
 	手机端栏目加载路径：/m/list.php?tid=(*)(example:tid=6)
+
 	手机端文章加载路径：/a/pics/2010/0407/95.html
 
 3.	分析"/m/index.php"文件
 
 	手机端手机加载模板路径：templets/default/index_m.htm
+
+	在index_m.htm的头部嵌入 iframe
+
+		<iframe src="http://khtogel.com/index.php" scrolling="no" frameborder="0" width="100%" height="500px"></iframe>
+	
+
+	修改代码图片展示：
+
+	<img src="{{ "/styles/images/Post/Figure1_1 KhtogelInTozea.png" | prepend:site.baseurl}}" width="400px">
+
+	修改后手机端图片展示：
+
+
+
+
+
