@@ -75,3 +75,5 @@ tag: [开发]
 	手机端文章加载路径：/a/pics/2010/0407/95.html
 
 3.	分析"/m/index.php"文件
+
+	手机端手机加载模板路径：templets/default/index_m.htm
