@@ -45,3 +45,14 @@ tag: [开发]
 
 ## 问题分析 ##
 1.	未找到手机所在模板文件夹：templets/wap/(手机模板目录)
+
+
+# 步骤 #
+
+1.	安装本地DedeCMS进行测试，安装测试版本为： 
+	[DedeCMS-V5.7-UTF8-SP1.zip](www.pcdd286.com/DedeCMS-V5.7-UTF8-SP1.zip)
+
+	本地当前IP是：192.168.1.107
+
+	后台测试目录：[点击进入](http://localhost/DedeCMS/uploads/dede/login.php?gotopage=%2FDedeCMS%2Fuploads%2Fdede%2F) 
+	前台测试目录：[点击进入](http://localhost/DedeCMS/uploads/index.php?upcache=1)
