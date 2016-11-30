@@ -24,8 +24,7 @@ tag: [开发]
 
 4.	toeza.com的手机端界面中还未内嵌khtogel.com的手机端界面
 
-	![toeza]({{ "/styles/images/Post/Figure1_1 toeza.png" | prepend:site.baseurl}})
-
+	<img src="{{ "/styles/images/Post/Figure1_1 toeza.png" | prepend:site.baseurl}}" width="400px">
 
 
 	<table>
