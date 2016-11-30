@@ -70,19 +70,19 @@ tag: [开发]
 
 2.	测试手机端模板所在目录
 
-	PC端模板所在目录为：templets/default
+	PC端模板所在目录为：`templets/default`
 	
-	手机端首页加载路径：/m/index.php
+	手机端首页加载路径：`/m/index.php`
 
-	手机端栏目加载路径：/m/list.php?tid=(*)(example:tid=6)
+	手机端栏目加载路径：`/m/list.php?tid=(*)(example:tid=6)`
 
-	手机端文章加载路径：/a/pics/2010/0407/95.html
+	手机端文章加载路径：`/a/pics/2010/0407/95.html`
 
 3.	分析"/m/index.php"文件
 
-	手机端手机加载模板路径：templets/default/index_m.htm
+	手机端手机加载模板路径：`templets/default/index_m.htm`
 
-	在index_m.htm的头部嵌入 iframe
+	在`index_m.htm`的头部嵌入 iframe
 
 		<iframe src="http://khtogel.com/index.php" scrolling="no" frameborder="0" width="100%" height="500px"></iframe>
 	
