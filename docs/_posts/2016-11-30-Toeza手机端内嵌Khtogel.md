@@ -93,6 +93,7 @@ tag: [开发]
 
 	修改后手机端图片展示：
 
+	<img src="{{ "/styles/images/Post/Figure1_1 KhtogelInTozeaPic.png" | prepend:site.baseurl}}" width="250px" height="450px">
 
 
 
