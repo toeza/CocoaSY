@@ -26,6 +26,13 @@ tag: [开发]
 
 	![toeza]({{ "/styles/images/Post/Figure1_1 toeza.png" | prepend:site.baseurl}})
 
+	<table>
+	<tr>
+	<td>![toeza_mobile1]({{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}})</td>
+	<td>![toeza_mobile2]({{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}})</td>
+	</tr>
+	</table>
+
 
 # 目的 #
 
