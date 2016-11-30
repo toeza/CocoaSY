@@ -41,7 +41,7 @@ tag: [开发]
 # 目的 #
 
 
-在toeza.com的手机端界面中还未内嵌khtogel.com的手机端界面
+在toeza.com的手机端界面中内嵌khtogel.com的手机端界面
 
 
 # 分析 #
@@ -55,7 +55,7 @@ tag: [开发]
 
 
 ## 问题分析 ##
-1.	未找到手机所在模板文件夹：templets/wap/(手机模板目录)
+1.	未找到手机所在模板文件夹：`templets/wap/`(手机模板目录)
 
 
 # 步骤 #
@@ -68,7 +68,7 @@ tag: [开发]
 	后台测试目录：[点击进入](http://localhost/DedeCMS/uploads/dede/login.php?gotopage=%2FDedeCMS%2Fuploads%2Fdede%2F) 
 	前台测试目录：[点击进入](http://localhost/DedeCMS/uploads/index.php?upcache=1)
 
-2.	测试手机端模板所在目录
+2.	查找手机端模板所在目录
 
 	PC端模板所在目录为：`templets/default`
 	
@@ -78,7 +78,7 @@ tag: [开发]
 
 	手机端文章加载路径：`/a/pics/2010/0407/95.html`
 
-3.	分析"/m/index.php"文件
+3.	分析"`/m/index.php`"文件
 
 	手机端手机加载模板路径：`templets/default/index_m.htm`
 
