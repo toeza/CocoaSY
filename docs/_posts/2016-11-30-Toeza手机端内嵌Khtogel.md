@@ -30,8 +30,8 @@ tag: [开发]
 
 	<table>
 	<tr>
-	<td><img src="{{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}}" width="150px" height="450px"></td>
-	<td><img src="{{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}}" width="150px" height="450px"></td>
+	<td><img src="{{ "/styles/images/Post/IMG_0206.PNG" | prepend:site.baseurl}}" width="250px" height="450px"></td>
+	<td><img src="{{ "/styles/images/Post/IMG_0205.PNG" | prepend:site.baseurl}}" width="250px" height="450px"></td>
 	</tr>
 	</table>
 
